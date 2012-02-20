@@ -53,9 +53,10 @@
 
 /* Component containers
 ----------------------------------*/
-.ui-widget { font: 12px Helvetica,arial,freesans,clean, sans-serif;  }
+.ui-widget { font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; outline: 0; }
+.ui-widget:focus{ outline: 0; }
 .ui-widget .ui-widget { font-size: 1em; }
-.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Helvetica,arial,freesans,clean, sans-serif;  font-size: 1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-size: 1em; }
 .ui-widget-content { background: #fff;  color: #333333; }
 .ui-widget-content a { color: #333333; }
 
@@ -92,6 +93,7 @@
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #999; text-decoration: none; }
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { 
 	border: 1px solid #b4b8c2;
+	 outline: 0; 
 	background-image: -webkit-gradient(linear, 0 0, 0 45, color-stop(0.044, #fdfdfd), to(#dfe2e9));
   background-image: -webkit-linear-gradient(#fdfdfd 4.4%, #dfe2e9);
   background-image: -moz-linear-gradient(#fdfdfd 4.4%, #dfe2e9);
@@ -362,7 +364,7 @@
  * http://docs.jquery.com/UI/Accordion#theming
  */
 /* IE/Win - Fix animation bug - #4615 */
-.ui-accordion { width: 100%; }
+.ui-accordion { width: 100%; border-radius: 0 }
 .ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; }
 .ui-accordion .ui-accordion-header.ui-state-default{
 	background-image: -moz-radial-gradient(bottom top,10,#CCC 0,white 100%);

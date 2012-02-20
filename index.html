@@ -62,11 +62,14 @@
 		</script>
 		<style type="text/css">
 			/*demo page css*/
-			body{font: 12px Helvetica,arial,freesans,clean, sans-serif;  margin: 0; background: url('images/bg.png') fixed}
+			body{font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;  margin: 0; background: #222}
 			.container{margin: 0 20%;  box-shadow: 0 2px 2px black}
-			.content{background: white; padding: 40px 100px;}
-			header{display: block; color: #FA4D3D; background-color: #522A26; padding: 40px 100px}
-			header h1{color: #FA4D3D;  font-weight: 100; margin: 0}
+			.content{background: white; padding: 0 100px 30px 100px; display: block; float: left; }
+			header{display: block; 
+				background: white;
+				border-bottom: 1px solid #ccc;
+				 padding: 20px 100px}
+			header h1{color: #606878;  font-weight: 100; margin: 0}
 			.demoHeaders { 
 				border-bottom: 1px dashed #CCC;
 				margin: 40px 0 20px 0;
@@ -83,14 +86,11 @@
 	<div class="container">
 		
 		<header>
-			<h1>Introducing Selene</h1>
-		
+			<h1>Selene: jQuery UI Theme</h1>
 		</header>
 		
 		<div class="content">
 			
-			<h1>Welcome to jQuery UI!</h1>
-
 				<!-- Accordion -->
 				<h2 class="demoHeaders">Accordion</h2>
 				<div id="accordion">
