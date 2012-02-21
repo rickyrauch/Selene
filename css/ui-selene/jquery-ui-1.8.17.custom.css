@@ -504,13 +504,19 @@
 	  background-image: -moz-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
 	  background-image: -o-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
 	  font-weight: bold;
-	  border-radius: 5px;
 	  text-shadow: 0 1px 0 white;
 	  padding: 6px 10px;
 		line-height: 24px;
 		cursor: pointer;
 		text-decoration: none;
 } /* the overflow property removes extra width in IE */
+
+.ui-button.ui-state-default.ui-state-active{
+	background: #fff;
+	box-shadow: 0 0 6px rgba(0,0,0,.2) inset;
+}
+
+.ui-buttonset label.ui-button.ui-state-default:first-child{border-right: 0 !important}
 
 .ui-button:hover{
 	box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
@@ -628,14 +634,19 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
   color: #606878;
   text-shadow: 0 1px 0 white;
   text-align: center;
-  position: relative; }
+  position: relative; 
+	font-size: 1.2em;
+}
 
 .ui-dialog-content, .ui-dialog-buttonpane {
-  padding: 10px; }
+  padding: 10px; 
+}
 
 .ui-dialog-buttonpane {
-  border-top: 1px solid #f1f1f1;
-  text-align: center; }
+  border-top: 1px solid #eee;
+  text-align: center; 
+	background: #f9f9f9;
+}
 
 .ui-dialog-buttonpane .ui-button {
   margin: 10px; }
@@ -651,8 +662,12 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
   height: 20px;
   border-radius: 4px; }
 
-.ui-dialog-titlebar-close:hover {
-  background: rgba(0, 0, 0, 0.2); }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { 
+	border: 0;
+  background: rgba(0, 0, 0, 0.2); 
+}
+
+
 
 .ui-dialog-titlebar-close span {
   background: url("images/images.png") no-repeat -106px -33px;
@@ -660,7 +675,9 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
   height: 10px;
   display: block;
   margin: 5px;
-  opacity: .4; }
+  opacity: .4; 
+	text-indent: -1000em;
+}
 
 
 /*
