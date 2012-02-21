@@ -1,5 +1,6 @@
 /*demo page css*/
-body{font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; background: #222 url('../image/bg.png');  margin: 0; }
+body{font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; background: #222 url('../images/bg.png') fixed;  margin: 0; }
+p{line-height: 22px}
 .container{width: 80%; margin: auto; box-shadow: 0 2px 2px black}
 .content{background: white; display: block; overflow: hidden;}
 header{

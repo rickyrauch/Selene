@@ -458,7 +458,7 @@
  *
  * http://docs.jquery.com/UI/Button#theming
  */
-.ui-button { 
+.ui-button.ui-state-default { 
 	  border: 1px solid #999;
 	  color: #666;
 	  display: inline-block;
@@ -697,13 +697,13 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 .ui-datepicker table {width: 100%; font-size: .9em; border-collapse: collapse; margin:0 0 .4em; }
 .ui-datepicker th { padding: .7em .3em; text-align: center; font-weight: bold; border: 0;  }
 .ui-datepicker td { border: 0; padding: 1px; }
-.ui-datepicker td span, .ui-datepicker td a { display: block; padding: .2em; text-align: right; text-decoration: none; }
 .ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
 .ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
 .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; }
 */
+
 .ui-datepicker { 
-	width: 261px; 
+	width: 260px; 
 	display: none; 
   background: #ededf0;
   background-image: -webkit-gradient(linear, 0 0, 0 20, from(white), to(#ededf0));
@@ -746,7 +746,9 @@ table.ui-datepicker-calendar th {
   background-image: -webkit-linear-gradient(white, #e1e1e5);
   background-image: -moz-linear-gradient(white, #e1e1e5);
   background-image: -o-linear-gradient(white, #e1e1e5);
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #ccc; 
+	border-right: 0;
+}
 
 table.ui-datepicker-calendar td.ui-datepicker-current-day {
   background-color: #d2dde6;
@@ -756,15 +758,20 @@ table.ui-datepicker-calendar td.ui-datepicker-current-day {
   background-image: -o-linear-gradient(#92a4c2, #d2dde6);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4) inset, 0 0 0 1px rgba(0, 0, 0, 0.3) inset;
   border-bottom: 0;
-  border-right: 0; }
+  border-right: 0; 
+}
 
 table.ui-datepicker-calendar td.ui-datepicker-current-day a {
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
 
 .ui-datepicker-calendar th, .ui-datepicker-calendar td {
-  padding: 10px;
-  text-align: center; }
+  text-align: center;
+}
+.ui-datepicker-calendar th{padding: 10px 0}
+.ui-datepicker td span, .ui-datepicker td a { display: block; padding: 10px; border: 0; text-align: center; text-decoration: none; }
+.ui-datepicker td a.ui-state-default{border: 0; background: none}
+.ui-datepicker td a.ui-state-default.ui-state-highlight{background: #ccc; border:0 !important; margin: 0 !important; box-shadow: none}
 
 .ui-datepicker-header {
   border: 1px solid #c9cbcd;
@@ -820,7 +827,9 @@ table.ui-datepicker-calendar td {
     left: -4px; /*must have*/
     width: 200px; /*must have*/
     height: 200px; /*must have*/
-}/*
+}
+
+/*
  * jQuery UI Progressbar 1.8.17
  *
  * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
