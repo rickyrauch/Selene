@@ -529,11 +529,17 @@
 	color: white;
 	text-shadow: 0 -1px 1px rgba(0,0,0,.4);
 	border-color: #325fb3;
-	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #478ef6), to(#1a6dde));
+	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #78acf8), to(#1a6dde));
 	background-image: -webkit-linear-gradient(#78acf8, #1a6dde);
-	background-image: -moz-linear-gradient(#478ef6, #1a6dde);
-	background-image: -o-linear-gradient(#478ef6, #1a6dde);
-	
+	background-image: -moz-linear-gradient(#78acf8, #1a6dde);
+	background-image: -o-linear-gradient(#78acf8, #1a6dde);
+}
+
+.ui-button.ui-state-default.ui-button-blue:active{
+	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #1a6dde), to(#78acf8));
+	background-image: -webkit-linear-gradient(#1a6dde, #78acf8);
+	background-image: -moz-linear-gradient(#1a6dde, #78acf8);
+	background-image: -o-linear-gradient(#1a6dde, #78acf8);
 }
 
 .ui-button-icon-only { width: 2.2em; } /* to make room for the icon, a width needs to be set here */
