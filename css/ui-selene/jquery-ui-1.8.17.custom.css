@@ -322,7 +322,7 @@
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; -khtml-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
 
 /* Overlays */
-/*.ui-widget-overlay { background: #666666 url(images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat; opacity: .50;filter:Alpha(Opacity=50); }*/
+.ui-widget-overlay { background: #666666 url(images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat; opacity: .50;filter:Alpha(Opacity=50); }
 .ui-widget-shadow { margin: -5px 0 0 -5px; padding: 5px; background: #000000 url(images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x; opacity: .20;filter:Alpha(Opacity=20); -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
 
 /*
@@ -495,6 +495,7 @@
  */
 .ui-button.ui-state-default { 
 	  border: 1px solid #999;
+		box-shadow: 0 1px 0 rgba(255,255,255,.2) inset ;
 	  color: #666;
 	  display: inline-block;
 		background-color: #d5d5d5;
@@ -508,6 +509,7 @@
 	  padding: 6px 10px;
 		line-height: 24px;
 		cursor: pointer;
+		text-decoration: none;
 } /* the overflow property removes extra width in IE */
 
 .ui-button:hover{
@@ -521,6 +523,17 @@
   background-image: -moz-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
   background-image: -o-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
 	box-shadow: 0 2px 8px rgba(0,0,0,.2) inset;
+}
+
+.ui-button.ui-state-default.ui-button-blue{
+	color: white;
+	text-shadow: 0 -1px 1px rgba(0,0,0,.4);
+	border-color: #325fb3;
+	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #478ef6), to(#1a6dde));
+	background-image: -webkit-linear-gradient(#78acf8, #1a6dde);
+	background-image: -moz-linear-gradient(#478ef6, #1a6dde);
+	background-image: -o-linear-gradient(#478ef6, #1a6dde);
+	
 }
 
 .ui-button-icon-only { width: 2.2em; } /* to make room for the icon, a width needs to be set here */
@@ -582,8 +595,8 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
   height: 100%; }
 
 .ui-widget-overlay {
-  background: rgba(255, 255, 255, .8); 
-	border: 1px solid #ccc;
+  background: rgba(0, 0, 0, .8); 
+	border: none;
 }
 
 .ui-dialog {
@@ -887,6 +900,7 @@ table.ui-datepicker-calendar td {
 
 /* Other Stuff */
 input.text{border: 1px solid #999; box-shadow: 0 1px 4px rgba(0,0,0,.2) inset; padding: .6em; font-size: 12px}
+input.text:hover{border: 1px solid #666}
 input[type=text].text:focus,
 input[type=search].text:focus,
 input[type=password].text:focus {
