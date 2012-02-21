@@ -499,11 +499,11 @@
 		box-shadow: 0 1px 0 rgba(255,255,255,.2) inset ;
 	  color: #666;
 	  display: inline-block;
-		background-color: #d5d5d5;
-	  background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #f7f7f7), to(#d5d5d5));
-	  background-image: -webkit-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
-	  background-image: -moz-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
-	  background-image: -o-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
+		background-color: #e5e7ee;
+	  background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #fcfcfd), to(#e5e7ee));
+	  background-image: -webkit-linear-gradient(#fcfcfd , #e5e7ee);
+	  background-image: -moz-linear-gradient(#fcfcfd 7.6%, #e5e7ee);
+	  background-image: -o-linear-gradient(#fcfcfd 7.6%, #e5e7ee);
 	  font-weight: bold;
 	  text-shadow: 0 1px 0 white;
 	  padding: 6px 10px;
@@ -525,10 +525,10 @@
 }
 
 .ui-button:active{
-	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #f7f7f7), to(#d5d5d5));
-  background-image: -webkit-linear-gradient(#d5d5d5 7.6%, #f7f7f7);
-  background-image: -moz-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
-  background-image: -o-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
+	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #e5e7ee), to(#fcfcfd));
+  background-image: -webkit-linear-gradient(#e5e7ee 7.6%, #fcfcfd);
+  background-image: -moz-linear-gradient(#e5e7ee 7.6%, #fcfcfd);
+  background-image: -o-linear-gradient(#e5e7ee 7.6%, #fcfcfd);
 	box-shadow: 0 2px 8px rgba(0,0,0,.2) inset;
 }
 
