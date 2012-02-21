@@ -638,6 +638,11 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 		background-image: -o-linear-gradient(#CCF 30%,#A6A6CF);*/
 
 }
+
+.ui-slider.red .ui-slider-range{background: #ddb5ae;}
+.ui-slider.blue .ui-slider-range{background: #acb9ed;}
+.ui-slider.yellow .ui-slider-range{background: #fae4b6;}
+
 .ui-slider-horizontal .ui-slider-range-min { left: 0; }
 .ui-slider-horizontal .ui-slider-range-max { right: 0; }
 
