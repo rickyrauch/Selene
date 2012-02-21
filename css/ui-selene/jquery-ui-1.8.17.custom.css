@@ -383,6 +383,7 @@
   background-image: -webkit-linear-gradient(#fdfdfd 4.4%, #dfe2e9);
   background-image: -moz-linear-gradient(#fdfdfd 4.4%, #dfe2e9);
   background-image: -o-linear-gradient(#fdfdfd 4.4%, #dfe2e9);
+	padding: .4em .4em;
 }
 .ui-accordion .ui-accordion-header.ui-state-active{
 	border-bottom: 1px solid #b4b8c2;
@@ -511,7 +512,7 @@
 		text-decoration: none;
 } /* the overflow property removes extra width in IE */
 
-.ui-button.ui-state-default.ui-state-active{
+.ui-buttonset .ui-button.ui-state-default.ui-state-active{
 	background: #fff;
 	box-shadow: 0 0 6px rgba(0,0,0,.2) inset;
 }
@@ -539,6 +540,10 @@
 	background-image: -webkit-linear-gradient(#78acf8, #1a6dde);
 	background-image: -moz-linear-gradient(#78acf8, #1a6dde);
 	background-image: -o-linear-gradient(#78acf8, #1a6dde);
+}
+
+.ui-button.ui-state-default.ui-button-blue:hover{
+	box-shadow: 0 0px 6px #78acf8 ;
 }
 
 .ui-button.ui-state-default.ui-button-blue:active{
@@ -695,10 +700,10 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 	text-align: left; 
 	border: 1px solid #ccc;
 	background-color: #999;
-  background-image: -webkit-gradient(linear, 0 0, 0 21, from(#92a4c2), to(#e2e5eb));
+  background-image: -webkit-gradient(linear, 0 0, 0 21, from(#f1f1f1), to(#fff));
   background-image: -webkit-linear-gradient(#f1f1f1, #fff);
-  background-image: -moz-linear-gradient(#92a4c2, #d2dde6);
-  background-image: -o-linear-gradient(#92a4c2, #d2dde6);
+  background-image: -moz-linear-gradient(#f1f1f1, #fff);
+  background-image: -o-linear-gradient(#f1f1f1, #fff);
 	box-shadow: 0 1px 1px rgba(0,0,0,.1) inset;
 }
 .ui-slider .ui-slider-handle { position: absolute; z-index: 2; padding: 0; border: 0;  cursor: default; 
@@ -710,7 +715,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 
 .ui-slider-horizontal { height: .8em; }
 .ui-slider-horizontal .ui-slider-handle { top: -5px; margin-left: -.6em; }
-.ui-slider-horizontal .ui-slider-range, .ui-progressbar-value{ top: -1px; height: 100%; 
+.ui-slider .ui-slider-range, .ui-progressbar-value{ top: -1px; height: 100%; 
 		border-radius: 1000px;
 		border: 1px solid rgba(0,0,0,.5);
 		box-shadow: 0 1px 4px white inset;
@@ -751,7 +756,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 .ui-tabs { background: #FFFFFF; position: relative; padding: .2em; zoom: 1; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; border: 0px none; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
 .ui-tabs .ui-tabs-nav { border-color: #ccc; border-width: 0px 0px 1px 0px; margin: 0; padding: 0; background: transparent; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; }
 .ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; -moz-border-radius-topleft: 3px; -webkit-border-top-left-radius: 3px; border-top-left-radius: 3px; -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px; border-top-right-radius: 3px; }
-.ui-tabs .ui-tabs-nav li a { float: left; padding:  .9em 1.4em; text-decoration: none; font-size: 12px; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding:  .9em 1.4em; text-decoration: none; }
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
 .ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
@@ -838,9 +843,9 @@ table.ui-datepicker-calendar th {
 }
 
 table.ui-datepicker-calendar td.ui-datepicker-current-day {
-  background-color: #d2dde6;
+  background-color: #a7adc4;
   background-image: -webkit-gradient(linear, 0 0, 0 21, from(#92a4c2), to(#d2dde6));
-  background-image: -webkit-linear-gradient(#92a4c2, #d2dde6);
+  background-image: -webkit-linear-gradient(#a7adc4, #d9d9e0);
   background-image: -moz-linear-gradient(#92a4c2, #d2dde6);
   background-image: -o-linear-gradient(#92a4c2, #d2dde6);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4) inset, 0 0 0 1px rgba(0, 0, 0, 0.3) inset;
@@ -876,7 +881,7 @@ table.ui-datepicker-calendar td {
   text-decoration: none; }
 
 .ui-datepicker-unselectable {
-  background-color: #eee; }
+  background-color: #ccc; }
 
 /* with multiple calendars */
 .ui-datepicker.ui-datepicker-multi { width:auto; }
@@ -919,6 +924,12 @@ table.ui-datepicker-calendar td {
 /* jQuery UI Progressbar */
 .ui-progressbar { height:2em; text-align: left; overflow: hidden; }
 .ui-progressbar .ui-progressbar-value { margin-top: 1px; height:95%; }
+.ui-progressbar.green .ui-progressbar-value{
+	background: #b8d5a8;
+}
+.ui-progressbar.blue .ui-progressbar-value{
+	background: #a6c0d3;
+}
 
 
 /* Other Stuff */
