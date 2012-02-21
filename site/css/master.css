@@ -1,7 +1,7 @@
 /*demo page css*/
 body{font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; background: #222 url('../images/bg.png') fixed;  margin: 0; }
 p{line-height: 22px}
-.container{width: 80%; margin: auto; box-shadow: 0 2px 2px black}
+.container{width: 76%; margin: auto; box-shadow: 0 2px 2px black}
 .content{background: white; display: block; overflow: hidden;}
 header{
 	display: block; 
@@ -12,9 +12,11 @@ header{
 }
 header h1{color: #606878;  font-weight: 200; margin: 0}
 .demoHeaders { 
-	border-bottom: 1px dashed #CCC;
+	border-bottom: 1px solid #f1f1f1;
 	margin: 40px 0 20px 0;
 	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 12px;
 }
 #dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
 #dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
