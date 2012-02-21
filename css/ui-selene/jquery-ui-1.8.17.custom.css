@@ -462,7 +462,7 @@
 	  border: 1px solid #999;
 	  color: #666;
 	  display: inline-block;
-	  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+		background-color: #d5d5d5;
 	  background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #f7f7f7), to(#d5d5d5));
 	  background-image: -webkit-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
 	  background-image: -moz-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
@@ -472,7 +472,21 @@
 	  text-shadow: 0 1px 0 white;
 	  padding: 6px 10px;
 		line-height: 24px;
- } /* the overflow property removes extra width in IE */
+		cursor: pointer;
+} /* the overflow property removes extra width in IE */
+
+.ui-button:hover{
+	box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
+	border-color: #666;
+}
+
+.ui-button:active{
+	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #f7f7f7), to(#d5d5d5));
+  background-image: -webkit-linear-gradient(#d5d5d5 7.6%, #f7f7f7);
+  background-image: -moz-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
+  background-image: -o-linear-gradient(#f7f7f7 7.6%, #d5d5d5);
+	box-shadow: 0 2px 8px rgba(0,0,0,.2) inset;
+}
 
 .ui-button-icon-only { width: 2.2em; } /* to make room for the icon, a width needs to be set here */
 button.ui-button-icon-only { width: 2.4em; } /* button elements seem to need a little more width */

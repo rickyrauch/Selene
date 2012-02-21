@@ -26,3 +26,5 @@ ul#icons span.ui-icon {float: left; margin: 0 4px;}
 .left, .right{width: 46%;  float: left; margin: 0 2% 2% 2%}
 
 .slider{margin-bottom: 20px}
+
+.component{min-height: 150px}
