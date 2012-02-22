@@ -516,8 +516,13 @@
 } /* the overflow property removes extra width in IE */
 
 .ui-buttonset .ui-button.ui-state-default.ui-state-active{
-	background: #fff;
-	box-shadow: 0 0 6px rgba(0,0,0,.2) inset;
+  background-color: #a7adc4;
+  background-image: -webkit-gradient(linear, 0 0, 0 21, from(#d2dde6), to(#d9d9e0));
+  background-image: -webkit-linear-gradient(#d2dde6, #92a4c2);
+  background-image: -moz-linear-gradient(#d2dde6, #92a4c2);
+  background-image: -o-linear-gradient(#d2dde6, #92a4c2);
+	color: white;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
 
 .ui-buttonset label.ui-button.ui-state-default:first-child{border-right: 0 !important}
