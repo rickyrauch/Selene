@@ -47,4 +47,5 @@ ul#icons span.ui-icon {float: left; margin: 0 4px;}
 
 .slider{margin-bottom: 20px}
 
-.component{min-height: 150px}
+.component{min-height: 150px; float: left; width: 46%; margin: 0 2%}
+.clear{display: block; clear: both}

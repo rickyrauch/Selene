@@ -553,6 +553,27 @@
 	background-image: -o-linear-gradient(#1a6dde, #78acf8);
 }
 
+.ui-button.ui-state-default.ui-button-green{
+	color: white;
+	text-shadow: 0 -1px 1px rgba(0,0,0,.4);
+	border-color: #5e8800;
+	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #93d500), to(#62b600));
+	background-image: -webkit-linear-gradient(#93d500, #62b600);
+	background-image: -moz-linear-gradient(#93d500, #62b600);
+	background-image: -o-linear-gradient(#93d500, #62b600);
+}
+
+.ui-button.ui-state-default.ui-button-green:hover{
+	box-shadow: 0 0px 6px #62b600 ;
+}
+
+.ui-button.ui-state-default.ui-button-green:active{
+	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #62b600), to(#93d500));
+	background-image: -webkit-linear-gradient(#62b600, #93d500);
+	background-image: -moz-linear-gradient(#62b600, #93d500);
+	background-image: -o-linear-gradient(#62b600, #93d500);
+}
+
 .ui-button-icon-only { width: 2.2em; } /* to make room for the icon, a width needs to be set here */
 button.ui-button-icon-only { width: 2.4em; } /* button elements seem to need a little more width */
 .ui-button-icons-only { width: 3.4em; } 
