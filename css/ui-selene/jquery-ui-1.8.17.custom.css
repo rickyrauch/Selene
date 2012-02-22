@@ -757,6 +757,8 @@ right: 0;
 .ui-slider.red .ui-slider-range{background: #ddb5ae;}
 .ui-slider.blue .ui-slider-range{background: #acb9ed;}
 .ui-slider.yellow .ui-slider-range{background: #fae4b6;}
+.ui-slider.orange .ui-slider-range{background: #fac1b1;}
+.ui-slider.violet .ui-slider-range{background: #c5a7eb;}
 
 .ui-slider-horizontal .ui-slider-range-min { left: 0; }
 .ui-slider-horizontal .ui-slider-range-max { right: 0; }

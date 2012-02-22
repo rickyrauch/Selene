@@ -99,8 +99,8 @@
 					<div class="slider blue"></div>
 					<div class="slider red"></div>
 					<div class="slider yellow"></div>
-					<div class="slider yellow"></div>
-					<div class="slider yellow"></div>
+					<div class="slider orange"></div>
+					<div class="slider violet"></div>
 				</div><!-- .component -->
 
 				<div class="component">
@@ -128,18 +128,6 @@
 					</p>
 				</div><!-- .component -->
 				
-				<div class="clear">
-					
-				</div>
-				
-				<div class="component" style="width: 94%">
-					<!-- Progressbar -->
-					<h2 class="demoHeaders">Progressbar</h2>	
-					<p><div class="progressbar"></div></p>
-					<p><div class="progressbar blue"></div></p>
-					<div class="progressbar green"></div>	
-				</div><!-- .component -->
-				
 				<div class="clear"></div>
 				
 				<div class="component">
@@ -159,11 +147,29 @@
 					</div>
 				</div><!-- .component -->
 				
+				
 				<div class="component">
-					<!-- Autocompleter -->
-					<h2 class="demoHeaders">Autocompleter</h2>
-					<input type="text" class="text" id="countries" />
+					<h2 class="demoHeaders">Button Toggle</h2>	
+						<div id="radio1">
+							<input type="radio" id="radio1" name="radio" /><label for="radio1">Choice 1</label>
+							<input type="radio" id="radio2" name="radio" checked="checked" /><label for="radio2">Choice 2</label>
+							<input type="radio" id="radio3" name="radio" /><label for="radio3">Choice 3</label>
+						</div>
+				</div><!-- .component -->
+				
+
+				
+				<div class="clear">
+					
 				</div>
+				
+				<div class="component" style="width: 94%">
+					<!-- Progressbar -->
+					<h2 class="demoHeaders">Progressbar</h2>	
+					<p><div class="progressbar"></div></p>
+					<p><div class="progressbar blue"></div></p>
+					<div class="progressbar green"></div>	
+				</div><!-- .component -->
 				
 				<div class="clear">
 					
@@ -212,36 +218,37 @@
 				
 
 
-				<!-- #dialog -->
-				
-			
-			
 				
 				<div class="component">
-					<h2 class="demoHeaders">Button Toggle</h2>	
-						<div id="radio1">
-							<input type="radio" id="radio1" name="radio" /><label for="radio1">Choice 1</label>
-							<input type="radio" id="radio2" name="radio" checked="checked" /><label for="radio2">Choice 2</label>
-							<input type="radio" id="radio3" name="radio" /><label for="radio3">Choice 3</label>
-						</div>
-				</div><!-- .component -->
+					<!-- Autocompleter -->
+					<h2 class="demoHeaders">Autocompleter</h2>
+					<input type="text" class="text" id="countries" />
+				</div>
+			
 				
 
 				<div class="component">
-						<h2 class="demoHeaders">Overlay and Shadow Classes <em>(not currently used in UI widgets)</em></h2>
-						<div style="position: relative; height: 200px; padding:1% 4%; overflow:hidden;" class="fakewindowcontain">
-							<p>Lorem ipsum dolor sit amet,  Nulla nec tortor. Donec id elit quis purus consectetur consequat. </p><p>Nam congue semper tellus. Sed erat dolor, dapibus sit amet, venenatis ornare, ultrices ut, nisi. Aliquam ante. Suspendisse scelerisque dui nec velit. Duis augue augue, gravida euismod, vulputate ac, facilisis id, sem. Morbi in orci. </p><p>Nulla purus lacus, pulvinar vel, malesuada ac, mattis nec, quam. Nam molestie scelerisque quam. Nullam feugiat cursus lacus.orem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero risus, commodo vitae, pharetra mollis, posuere eu, pede. Nulla nec tortor. Donec id elit quis purus consectetur consequat. </p><p>Nam congue semper tellus. Sed erat dolor, dapibus sit amet, venenatis ornare, ultrices ut, nisi. Aliquam ante. Suspendisse scelerisque dui nec velit. Duis augue augue, gravida euismod, vulputate ac, facilisis id, sem. Morbi in orci. Nulla purus lacus, pulvinar vel, malesuada ac, mattis nec, quam. Nam molestie scelerisque quam. </p><p>Nullam feugiat cursus lacus.orem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero risus, commodo vitae, pharetra mollis, posuere eu, pede. Nulla nec tortor. Donec id elit quis purus consectetur consequat. Nam congue semper tellus. Sed erat dolor, dapibus sit amet, venenatis ornare, ultrices ut, nisi. Aliquam ante. </p><p>Suspendisse scelerisque dui nec velit. Duis augue augue, gravida euismod, vulputate ac, facilisis id, sem. Morbi in orci. Nulla purus lacus, pulvinar vel, malesuada ac, mattis nec, quam. Nam molestie scelerisque quam. Nullam feugiat cursus lacus.orem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero risus, commodo vitae, pharetra mollis, posuere eu, pede. Nulla nec tortor. Donec id elit quis purus consectetur consequat. Nam congue semper tellus. Sed erat dolor, dapibus sit amet, venenatis ornare, ultrices ut, nisi. </p>
-
-							<!-- ui-dialog -->
-							<div class="ui-overlay"><div class="ui-widget-overlay"></div><div class="ui-widget-shadow ui-corner-all" style="width: 302px; height: 152px; position: absolute; left: 50px; top: 30px;"></div></div>
-							<div style="position: absolute; width: 280px; height: 130px;left: 50px; top: 30px; padding: 10px;" class="ui-widget ui-widget-content ui-corner-all">
-								<div class="ui-dialog-content ui-widget-content" style="background: none; border: 0;">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-								</div>
-							</div>
-
+					<!-- Highlight / Error -->
+					<h2 class="demoHeaders">Highlight / Error</h2>
+					<div class="ui-widget">
+						<div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;"> 
+							<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+							<strong>Hey!</strong> Sample ui-state-highlight style.</p>
 						</div>
+					</div>
+					<br/>
+					<div class="ui-widget">
+						<div class="ui-state-error ui-corner-all" style="padding: 0 .7em;"> 
+							<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span> 
+							<strong>Alert:</strong> Sample ui-state-error style.</p>
+						</div>
+					</div>
 				</div><!-- .component -->
+				
+
+				
+
+
 				
 				<div class="clear">
 					
@@ -445,28 +452,22 @@
 					<li class="ui-state-default ui-corner-all" title=".ui-icon-grip-diagonal-se"><span class="ui-icon ui-icon-grip-diagonal-se"></span></li>
 					</ul>
 				</div><!-- .component -->
-
-
+				
 				<div class="component">
-					<!-- Highlight / Error -->
-					<h2 class="demoHeaders">Highlight / Error</h2>
-					<div class="ui-widget">
-						<div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;"> 
-							<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-							<strong>Hey!</strong> Sample ui-state-highlight style.</p>
+						<h2 class="demoHeaders">Overlay and Shadow Classes <em>(not currently used in UI widgets)</em></h2>
+						<div style="position: relative; height: 200px; padding:1% 4%; overflow:hidden;" class="fakewindowcontain">
+							<p>Lorem ipsum dolor sit amet,  Nulla nec tortor. Donec id elit quis purus consectetur consequat. </p><p>Nam congue semper tellus. Sed erat dolor, dapibus sit amet, venenatis ornare, ultrices ut, nisi. Aliquam ante. Suspendisse scelerisque dui nec velit. Duis augue augue, gravida euismod, vulputate ac, facilisis id, sem. Morbi in orci. </p><p>Nulla purus lacus, pulvinar vel, malesuada ac, mattis nec, quam. Nam molestie scelerisque quam. Nullam feugiat cursus lacus.orem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero risus, commodo vitae, pharetra mollis, posuere eu, pede. Nulla nec tortor. Donec id elit quis purus consectetur consequat. </p><p>Nam congue semper tellus. Sed erat dolor, dapibus sit amet, venenatis ornare, ultrices ut, nisi. Aliquam ante. Suspendisse scelerisque dui nec velit. Duis augue augue, gravida euismod, vulputate ac, facilisis id, sem. Morbi in orci. Nulla purus lacus, pulvinar vel, malesuada ac, mattis nec, quam. Nam molestie scelerisque quam. </p><p>Nullam feugiat cursus lacus.orem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero risus, commodo vitae, pharetra mollis, posuere eu, pede. Nulla nec tortor. Donec id elit quis purus consectetur consequat. Nam congue semper tellus. Sed erat dolor, dapibus sit amet, venenatis ornare, ultrices ut, nisi. Aliquam ante. </p><p>Suspendisse scelerisque dui nec velit. Duis augue augue, gravida euismod, vulputate ac, facilisis id, sem. Morbi in orci. Nulla purus lacus, pulvinar vel, malesuada ac, mattis nec, quam. Nam molestie scelerisque quam. Nullam feugiat cursus lacus.orem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero risus, commodo vitae, pharetra mollis, posuere eu, pede. Nulla nec tortor. Donec id elit quis purus consectetur consequat. Nam congue semper tellus. Sed erat dolor, dapibus sit amet, venenatis ornare, ultrices ut, nisi. </p>
+
+							<!-- ui-dialog -->
+							<div class="ui-overlay"><div class="ui-widget-overlay"></div><div class="ui-widget-shadow ui-corner-all" style="width: 302px; height: 152px; position: absolute; left: 50px; top: 30px;"></div></div>
+							<div style="position: absolute; width: 280px; height: 130px;left: 50px; top: 30px; padding: 10px;" class="ui-widget ui-widget-content ui-corner-all">
+								<div class="ui-dialog-content ui-widget-content" style="background: none; border: 0;">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+								</div>
+							</div>
+
 						</div>
-					</div>
-					<br/>
-					<div class="ui-widget">
-						<div class="ui-state-error ui-corner-all" style="padding: 0 .7em;"> 
-							<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span> 
-							<strong>Alert:</strong> Sample ui-state-error style.</p>
-						</div>
-					</div>
 				</div><!-- .component -->
-			
-
-
 				
 				
 		</div><!-- .content -->
