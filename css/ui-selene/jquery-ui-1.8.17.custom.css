@@ -377,11 +377,12 @@
 	padding: .4em .4em;
 }
 .ui-accordion .ui-accordion-header.ui-state-active{
-	border-bottom: 1px solid #b4b8c2;
-	background-image: -webkit-gradient(linear, 0 0, 0 45, color-stop(0.044, #fdfdfd), to(#dfe2e9));
-  background-image: -webkit-linear-gradient(#fdfdfd 4.4%, #dfe2e9);
-  background-image: -moz-linear-gradient(#fdfdfd 4.4%, #dfe2e9);
-  background-image: -o-linear-gradient(#fdfdfd 4.4%, #dfe2e9);
+	color: #333;
+	text-shadow: 0 1px 0 white;
+	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #eaeaeb), color-stop(0.5, #dadbde), color-stop(0.5, #d0d1d4), to(#bcbec2));
+	background-image: -webkit-linear-gradient(#eaeaeb 7.6%, #dadbde 50%, #d0d1d4 50%, #bcbec2);
+	background-image: -moz-linear-gradient(#eaeaeb 7.6%, #dadbde 50%, #d0d1d4 50%, #bcbec2);
+	background-image: -o-linear-gradient(#eaeaeb 7.6%, #dadbde 50%, #d0d1d4 50%, #bcbec2)
 }
 .ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: .5em .5em .5em .7em; }
 .ui-accordion-icons .ui-accordion-header a { padding-left: 2.2em; }
@@ -392,7 +393,7 @@
  * jQuery UI Autocomplete 1.8.17
  */
 
-.ui-autocomplete {margin-top: 10px;  position: absolute; cursor: default; list-style: none; background: #414b52; border: 1px solid #313e44; padding: 0 4px; 
+.ui-autocomplete {margin-top: 10px;  position: absolute; cursor: default; list-style: none; background: #333; border: 1px solid #313e44; padding: 0 4px; 
 	border-radius: 0;
 	-webkit-border-bottom-right-radius: 4px;
 	-webkit-border-bottom-left-radius: 4px;
@@ -414,10 +415,10 @@
 
 .ui-autocomplete.ui-menu .ui-menu-item a.ui-state-hover{
 	background-color: #1d75a6;
-	background-image: -webkit-gradient(linear, 0 0, 0 23, color-stop(0.086, #439fc5), to(#1d75a6));
-	background-image: -webkit-linear-gradient(#439fc5 8.6%, #1d75a6);
-	background-image: -moz-linear-gradient(#439fc5 8.6%, #1d75a6);
-	background-image: -o-linear-gradient(#439fc5 8.6%, #1d75a6);
+	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #78acf8), to(#1a6dde));
+	background-image: -webkit-linear-gradient(#78acf8, #1a6dde);
+	background-image: -moz-linear-gradient(#78acf8, #1a6dde);
+	background-image: -o-linear-gradient(#78acf8, #1a6dde);
 	display: inline-block; color: white; font-weight: bold; text-decoration: none;
 	display: block;
 	border-radius: 4px;
@@ -465,11 +466,13 @@
 } /* the overflow property removes extra width in IE */
 
 .ui-buttonset .ui-button.ui-state-default.ui-state-active{
-  background-color: #a7adc4;
-  background-image: -webkit-gradient(linear, 0 0, 0 21, from(#d2dde6), to(#788eb6));
-  background-image: -webkit-linear-gradient(#aab8d1, #5873a3);
-  background-image: -moz-linear-gradient(#d2dde6, #5873a3);
-  background-image: -o-linear-gradient(#d2dde6, #5873a3);
+	color: white;
+	text-shadow: 0 -1px 1px rgba(0,0,0,.4);
+	border-color: #325fb3;
+	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #78acf8), to(#1a6dde));
+	background-image: -webkit-linear-gradient(#78acf8, #1a6dde);
+	background-image: -moz-linear-gradient(#78acf8, #1a6dde);
+	background-image: -o-linear-gradient(#78acf8, #1a6dde);
 	color: white;
 	text-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
@@ -711,13 +714,17 @@ right: 0;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	position:relative;    
-	padding: 20px 14px;
-
+	padding: 12px 14px;
+	color: #333;
+	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #eaeaeb), color-stop(0.5, #dadbde), color-stop(0.5, #d0d1d4), to(#bcbec2));
+	background-image: -webkit-linear-gradient(#eaeaeb 7.6%, #dadbde 50%, #d0d1d4 50%, #bcbec2);
+	background-image: -moz-linear-gradient(#eaeaeb 7.6%, #dadbde 50%, #d0d1d4 50%, #bcbec2);
+	background-image: -o-linear-gradient(#eaeaeb 7.6%, #dadbde 50%, #d0d1d4 50%, #bcbec2)
 }
 
 
-.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {cursor: pointer; position:absolute; top: 17px; width: 1.8em; height: 1.8em; }
-.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { top: 16px; }
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {cursor: pointer; position:absolute; top: 10px; width: 1.8em; height: 1.8em; }
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { top: 9px; }
 .ui-datepicker .ui-datepicker-prev { left:10px; }
 .ui-datepicker .ui-datepicker-next { right:10px; }
 .ui-datepicker .ui-datepicker-prev-hover { left:9px; }
