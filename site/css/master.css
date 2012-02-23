@@ -1,7 +1,7 @@
 html{ -webkit-font-smoothing:antialiased; }
 body{font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; background: #919191;  margin: 0; }
 p{line-height: 22px}
-.container{width: 58%; margin: auto; box-shadow: 0 2px 2px black}
+.container{width: 800px; margin: auto; box-shadow: 0 2px 2px black}
 .content{background: white; display: block; overflow: hidden; padding-bottom: 2%; }
 .color-line{
 	width: 100%;
@@ -29,7 +29,17 @@ header{
 	box-shadow: 0 2px 2px rgba(0,0,0,.4);
 	z-index: 1000;
 }
-header h1{color: #fff;padding: 2%;  font-weight: 200; margin: 0}
+header h1{color: #fff;padding: 2%;   font-weight: 400; font-size: 20px; margin: 0}
+header .follow-us{float: right; color: white; font-weight: bold; font-size: 10px; text-transform: uppercase; background: #000; color: #fff; border-radius: 5px; padding: 8px 10px; margin-top: 12px; 
+	display: inline-block; margin-right: 10px; text-decoration: none;
+	background-image: -webkit-gradient(linear, 0 0, 0 48, color-stop(0.104, #2e2e2e), to(#000));
+	background-image: -webkit-linear-gradient(#666 10.4%, #444);
+	background-image: -moz-linear-gradient(#2e2e2e 10.4%, #000);
+	background-image: -o-linear-gradient(#2e2e2e 10.4%, #000);	
+	border: 1px solid black;
+	box-shadow: 0 2px 2px black, 0 1px 0 rgba(255,255,255,.2) inset;
+	text-shadow: 0 -1px 1px black;
+}
 .demoHeaders { 
 	border-bottom: 1px solid #f1f1f1;
 	margin: 40px 0 20px 0;
