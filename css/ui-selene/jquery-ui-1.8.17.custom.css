@@ -98,7 +98,7 @@
 
 /* Interaction Cues
 ----------------------------------*/
-.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {border: 1px solid #f8e144; background: #fdf7ce ; color: #716410; }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {border: 1px solid #f8e144; background: #fdf7ce ; color: #000; }
 .ui-state-highlight a, .ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a { color: #363636; }
 .ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {border: 1px solid #ee86a4; background: #f8cad7; color: #9d2a16; }
 .ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: #ffffff; }
@@ -747,11 +747,12 @@ table.ui-datepicker-calendar th {
 }
 
 table.ui-datepicker-calendar td.ui-datepicker-current-day {
+	color: black;
   background-color: #a7adc4;
-  background-image: -webkit-gradient(linear, 0 0, 0 21, from(#92a4c2), to(#d2dde6));
-  background-image: -webkit-linear-gradient(#a7adc4, #d9d9e0);
-  background-image: -moz-linear-gradient(#92a4c2, #d2dde6);
-  background-image: -o-linear-gradient(#92a4c2, #d2dde6);
+  background-image: -webkit-gradient(linear, 0 0, 0 21, from(#5397f1), to(#84b4f5));
+  background-image: -webkit-linear-gradient(#5397f1, #84b4f5);
+  background-image: -moz-linear-gradient(#5397f1, #84b4f5);
+  background-image: -o-linear-gradient(#5397f1, #84b4f5);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4) inset, 0 0 0 1px rgba(0, 0, 0, 0.3) inset;
   border-bottom: 0;
   border-right: 0; 
