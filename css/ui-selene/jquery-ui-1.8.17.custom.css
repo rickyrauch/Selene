@@ -765,7 +765,7 @@ table.ui-datepicker-calendar td.ui-datepicker-current-day a {
 .ui-datepicker-calendar th, .ui-datepicker-calendar td {
   text-align: center;
 }
-.ui-datepicker-calendar th{padding: 10px 0}
+.ui-datepicker-calendar th{padding: 6px 0}
 .ui-datepicker td span, .ui-datepicker td a { display: block; padding: 10px; border: 0; text-align: center; text-decoration: none; }
 .ui-datepicker td a.ui-state-default{border: 0; background: none}
 .ui-datepicker-header{ border:1px solid #c9cbcd;  border-bottom:0}
