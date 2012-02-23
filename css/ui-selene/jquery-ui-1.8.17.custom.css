@@ -662,6 +662,10 @@ right: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   border-radius: 3px; }
 
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: 1em; top: 50%;  width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+	
 .ui-dialog-titlebar {
 	border-radius: 0;
   -webkit-border-top-left-radius: 3px;
@@ -697,33 +701,8 @@ right: 0;
 .ui-dialog-buttonpane .ui-button {
   margin: 10px; }
 
-.ui-dialog-titlebar-close {
-  position: absolute;
-  top: 17px;
-  right: 10px;
-  background: rgba(0, 0, 0, 0.1);
-  text-indent: -1000em;
-  display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 4px; }
-
-.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { 
-	border: 0;
-  background: rgba(0, 0, 0, 0.2); 
-}
 
 
-
-.ui-dialog-titlebar-close span {
-  background: url("images/images.png") no-repeat -106px -33px;
-  width: 10px;
-  height: 10px;
-  display: block;
-  margin: 5px;
-  opacity: .4; 
-	text-indent: -1000em;
-}
 
 
 /*
@@ -862,10 +841,11 @@ right: 0;
 	border-top-right-radius: 4px;
 	position:relative;    
 	padding: 20px 14px;
+
 }
 
 
-.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position:absolute; top: 17px; width: 1.8em; height: 1.8em; }
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {cursor: pointer; position:absolute; top: 17px; width: 1.8em; height: 1.8em; }
 .ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { top: 16px; }
 .ui-datepicker .ui-datepicker-prev { left:10px; }
 .ui-datepicker .ui-datepicker-next { right:10px; }
@@ -886,6 +866,7 @@ table.ui-datepicker-calendar th {
   background-image: -moz-linear-gradient(white, #e1e1e5);
   background-image: -o-linear-gradient(white, #e1e1e5);
   border-bottom: 1px solid #ccc; 
+	border-top: 0;
 	border-right: 0;
 }
 
@@ -902,7 +883,8 @@ table.ui-datepicker-calendar td.ui-datepicker-current-day {
 
 table.ui-datepicker-calendar td.ui-datepicker-current-day a {
   color: white;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); 
+}
 
 .ui-datepicker-calendar th, .ui-datepicker-calendar td {
   text-align: center;
