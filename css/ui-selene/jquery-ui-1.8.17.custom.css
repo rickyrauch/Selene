@@ -120,7 +120,7 @@
 .ui-state-highlight .ui-icon {background-image: url(images/ui-icons_666666_256x240.png); }
 .ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(images/ui-icons_666666_256x240.png); }
 
-.ui-state-highlight, .ui-state-error{box-shadow: 0 1px 0 rgba(255,255,255,.4) inset; padding: 0 14px}
+.ui-state-highlight, .ui-state-error{padding: 0 14px}
 .ui-state-highlight p, .ui-state-error p{line-height: 10px; text-shadow: 0 1px 0 rgba(255,255,255,.6)}
 .ui-state-error .ui-icon, .ui-state-highlight .ui-icon{margin-right: 6px;display: inline-block; line-height: 10px;}
 .ui-state-highlight .ui-icon{background: url('images/images.png') no-repeat -40px 0;
