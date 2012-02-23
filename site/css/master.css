@@ -30,7 +30,7 @@ header{
 	z-index: 1000;
 }
 header h1{color: #fff;padding: 2%;   font-weight: 400; font-size: 20px; margin: 0}
-header .follow-us{float: right; color: white; font-weight: bold; font-size: 10px; text-transform: uppercase; background: #000; color: #fff; border-radius: 5px; padding: 0 10px; margin-top: 12px; 
+header .follow-us{float: right; color: white; font-weight: bold; font-size: 10px; text-transform: uppercase; background: #000; color: #fff; border-radius: 5px; padding: 0 10px 0 6px; margin-top: 12px; 
 	display: inline-block; margin-right: 10px; text-decoration: none;
 	background-image: -webkit-gradient(linear, 0 0, 0 48, color-stop(0.104, #666), to(#444));
 	background-image: -webkit-linear-gradient(#666 10.4%, #444);
@@ -58,12 +58,15 @@ header .follow-us:active{
 
 header .follow-us i{
 	display: inline-block;
-	background: url('../images/twitter.png') no-repeat -1px 0;
-	width: 20px;
-	height: 16px;
+	background: url('../images/twitter.png') no-repeat 0 0;
+	width: 18px;
+	height: 18px;
 	margin-top: 6px;
 	float: left;
-	margin-right: 6px;
+	margin-right: 8px;
+	padding-right: 6px;
+	border-right: 1px solid #444;
+	box-shadow:1px 0  0 rgba(255,255,255,.1);
 }
 
 .demoHeaders { 
