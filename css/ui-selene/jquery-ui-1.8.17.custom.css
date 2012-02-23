@@ -952,14 +952,14 @@ table.ui-datepicker-calendar td {
 
 /* jQuery UI Progressbar */
 .ui-progressbar { height:2em; text-align: left; overflow: hidden; }
-.ui-progressbar .ui-progressbar-value { margin-top: 1px; height:95%; }
-.ui-progressbar.green .ui-progressbar-value{
-	background: #b8d5a8;
-}
-.ui-progressbar.blue .ui-progressbar-value{
-	background: #a6c0d3;
+.ui-progressbar .ui-progressbar-value { margin-top: 1px; height:95%; background-image: url('images/lines.png') }
+.ui-progressbar .ui-progressbar-value{
+	background-color: #89cc00 ;
 }
 
+.ui-progressbar.blue .ui-progressbar-value{
+	background-color: #4e8ff3 ;
+}
 
 /* Other Stuff */
 input.text{border: 1px solid #999; box-shadow: 0 1px 4px rgba(0,0,0,.2) inset; padding: .6em; font-size: 12px}
