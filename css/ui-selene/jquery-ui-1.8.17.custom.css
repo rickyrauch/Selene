@@ -111,14 +111,14 @@
 ----------------------------------*/
 
 /* states and images */
-.ui-icon { width: 16px; height: 16px; background-image: url(images/ui-icons_222222_256x240.png); }
-.ui-widget-content .ui-icon {background-image: url(images/ui-icons_494f5c_256x240.png); }
-.ui-widget-header .ui-icon {background-image: url(images/ui-icons_494f5c_256x240.png); }
-.ui-state-default .ui-icon { background-image: url(images/ui-icons_494f5c_256x240.png); }
-.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(images/ui-icons_494f5c_256x240.png); }
-.ui-state-active .ui-icon {background-image: url(images/ui-icons_494f5c_256x240.png); }
-.ui-state-highlight .ui-icon {background-image: url(images/ui-icons_222222_256x240.png); }
-.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(images/ui-icons_222222_256x240.png); }
+.ui-icon { width: 16px; height: 16px; background-image: url(images/ui-icons_666666_256x240.png); }
+.ui-widget-content .ui-icon {background-image: url(images/ui-icons_666666_256x240.png); }
+.ui-widget-header .ui-icon {background-image: url(images/ui-icons_666666_256x240.png); }
+.ui-state-default .ui-icon { background-image: url(images/ui-icons_666666_256x240.png); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(images/ui-icons_666666_256x240.png); }
+.ui-state-active .ui-icon {background-image: url(images/ui-icons_666666_256x240.png); }
+.ui-state-highlight .ui-icon {background-image: url(images/ui-icons_666666_256x240.png); }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(images/ui-icons_666666_256x240.png); }
 
 .ui-state-highlight, .ui-state-error{box-shadow: 0 1px 0 rgba(255,255,255,.4) inset; padding: 0 14px}
 .ui-state-highlight p, .ui-state-error p{line-height: 10px; text-shadow: 0 1px 0 rgba(255,255,255,.6)}
