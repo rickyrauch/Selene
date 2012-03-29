@@ -1,4 +1,4 @@
- [Follow us on twitter][].
+### [Follow us on twitter][].
 
   [Follow us on twitter]: http://twitter.com/gravityonmars
   
