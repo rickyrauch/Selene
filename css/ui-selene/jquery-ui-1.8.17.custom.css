@@ -663,7 +663,6 @@ right: 0;
 		background-image: -webkit-linear-gradient(360deg, #6FD0D4, #DBEFBB);
 		background-image: -moz-linear-gradient(360deg, #6FD0D4, #DBEFBB);
 		background-image: -o-linear-gradient(360deg, #6FD0D4, #DBEFBB);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6FD0D4', endColorstr='#DBEFBB');
 }
 
 .ui-slider.red .ui-slider-range{background: #ddb5ae;}
@@ -763,7 +762,7 @@ table.ui-datepicker-calendar th {
 
 table.ui-datepicker-calendar td.ui-datepicker-current-day {
 	color: black;
-  background-color: #a7adc4;
+  background-color: #84b4f5;
   background-image: -webkit-gradient(linear, 0 0, 0 21, from(#5397f1), to(#84b4f5));
   background-image: -webkit-linear-gradient(#5397f1, #84b4f5);
   background-image: -moz-linear-gradient(#5397f1, #84b4f5);
@@ -828,6 +827,7 @@ table.ui-datepicker-calendar td{ border:1px solid #ccc}
 .ui-progressbar { height:1.6em; text-align: left; }
 
 .ui-progressbar .ui-progressbar-value{
+	background: #62b600 url('images/lines.png');
 	background-image: url('images/lines.png'), -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #93d500), to(#62b600));
 	background-image: url('images/lines.png'), -webkit-linear-gradient(#93d500, #62b600);
 	background-image: url('images/lines.png'), -moz-linear-gradient(#93d500, #62b600);
@@ -835,6 +835,7 @@ table.ui-datepicker-calendar td{ border:1px solid #ccc}
 }
 
 .ui-progressbar.blue .ui-progressbar-value{
+	background: #1a6dde url('images/lines.png');
 	background-image:  url('images/lines.png'),  -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #78acf8), to(#1a6dde));
 	background-image:  url('images/lines.png'), -webkit-linear-gradient(#78acf8, #1a6dde);
 	background-image:  url('images/lines.png'), -moz-linear-gradient(#78acf8, #1a6dde);
