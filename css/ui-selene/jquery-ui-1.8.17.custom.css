@@ -454,9 +454,10 @@
 	  display: inline-block;
 		background-color: #e5e7ee;
 	  background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #fcfcfd), to(#e5e7ee));
-	  background-image: -webkit-linear-gradient(#fcfcfd , #e5e7ee);
-	  background-image: -moz-linear-gradient(#fcfcfd 7.6%, #e5e7ee);
-	  background-image: -o-linear-gradient(#fcfcfd 7.6%, #e5e7ee);
+	  background-image: -webkit-linear-gradient(#fcfcfd, #e5e7ee);
+	  background-image: -moz-linear-gradient(#fcfcfd, #e5e7ee);
+	  background-image: -o-linear-gradient(#fcfcfd, #e5e7ee);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfd', endColorstr='#e5e7ee');
 	  font-weight: bold;
 	  text-shadow: 0 1px 0 white;
 	  padding: 10px 10px;
@@ -468,10 +469,12 @@
 	color: white;
 	text-shadow: 0 -1px 1px rgba(0,0,0,.4);
 	border-color: #325fb3;
+	background-color: #78acf8;
 	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #78acf8), to(#1a6dde));
 	background-image: -webkit-linear-gradient(#78acf8, #1a6dde);
 	background-image: -moz-linear-gradient(#78acf8, #1a6dde);
 	background-image: -o-linear-gradient(#78acf8, #1a6dde);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#78acf8', endColorstr='#1a6dde');
 	color: white;
 	text-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
@@ -484,10 +487,12 @@
 }
 
 .ui-button:active{
+	background: #fcfcfd;
 	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #e5e7ee), to(#fcfcfd));
   background-image: -webkit-linear-gradient(#e5e7ee 7.6%, #fcfcfd);
   background-image: -moz-linear-gradient(#e5e7ee 7.6%, #fcfcfd);
   background-image: -o-linear-gradient(#e5e7ee 7.6%, #fcfcfd);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e7ee', endColorstr='#fcfcfd');
 	box-shadow: 0 2px 8px rgba(0,0,0,.2) inset;
 }
 
@@ -495,10 +500,12 @@
 	color: white;
 	text-shadow: 0 -1px 1px rgba(0,0,0,.4);
 	border-color: #325fb3;
+	background: #1a6dde;
 	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #78acf8), to(#1a6dde));
 	background-image: -webkit-linear-gradient(#78acf8, #1a6dde);
 	background-image: -moz-linear-gradient(#78acf8, #1a6dde);
 	background-image: -o-linear-gradient(#78acf8, #1a6dde);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#78acf8', endColorstr='#1a6dde');
 }
 
 .ui-button.ui-state-default.ui-button-blue:hover{
@@ -506,20 +513,24 @@
 }
 
 .ui-button.ui-state-default.ui-button-blue:active{
+	background: #78acf8;
 	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #1a6dde), to(#78acf8));
 	background-image: -webkit-linear-gradient(#1a6dde, #78acf8);
 	background-image: -moz-linear-gradient(#1a6dde, #78acf8);
 	background-image: -o-linear-gradient(#1a6dde, #78acf8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a6dde', endColorstr='#78acf8');
 }
 
 .ui-button.ui-state-default.ui-button-green{
 	color: white;
 	text-shadow: 0 -1px 1px rgba(0,0,0,.4);
 	border-color: #5e8800;
+	background: #62b600;
 	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #93d500), to(#62b600));
 	background-image: -webkit-linear-gradient(#93d500, #62b600);
 	background-image: -moz-linear-gradient(#93d500, #62b600);
 	background-image: -o-linear-gradient(#93d500, #62b600);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93d500', endColorstr='#62b600');
 }
 
 .ui-button.ui-state-default.ui-button-green:hover{
@@ -531,6 +542,7 @@
 	background-image: -webkit-linear-gradient(#62b600, #93d500);
 	background-image: -moz-linear-gradient(#62b600, #93d500);
 	background-image: -o-linear-gradient(#62b600, #93d500);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#62b600', endColorstr='#93d500');
 }
 
 .ui-button-icon-only { width: 2.2em; } /* to make room for the icon, a width needs to be set here */
@@ -624,7 +636,7 @@ right: 0;
 	position: relative; 
 	text-align: left; 
 	border: 1px solid #ccc;
-	background-color: #999;
+	background-color: #fff;
   background-image: -webkit-gradient(linear, 0 0, 0 21, from(#f1f1f1), to(#fff));
   background-image: -webkit-linear-gradient(#f1f1f1, #fff);
   background-image: -moz-linear-gradient(#f1f1f1, #fff);
@@ -641,7 +653,9 @@ right: 0;
 .ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
 .ui-slider-horizontal { height: .8em; }
 .ui-slider-horizontal .ui-slider-handle { top: -5px; margin-left: -.6em; }
-.ui-slider .ui-slider-range, .ui-progressbar-value{ top: -1px; height: 100%; 
+.ui-slider .ui-slider-range, .ui-progressbar-value{ 
+		top: -1px; 
+		height: 100%; 
 		border-radius: 1000px;
 		border: 1px solid rgba(0,0,0,.5);
 		box-shadow: 0 1px 4px white inset;
@@ -649,6 +663,7 @@ right: 0;
 		background-image: -webkit-linear-gradient(360deg, #6FD0D4, #DBEFBB);
 		background-image: -moz-linear-gradient(360deg, #6FD0D4, #DBEFBB);
 		background-image: -o-linear-gradient(360deg, #6FD0D4, #DBEFBB);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6FD0D4', endColorstr='#DBEFBB');
 }
 
 .ui-slider.red .ui-slider-range{background: #ddb5ae;}
@@ -718,7 +733,8 @@ right: 0;
 	background-image: -webkit-gradient(linear, 0 0, 0 26, color-stop(0.076, #eaeaeb), color-stop(0.5, #dadbde), color-stop(0.5, #d0d1d4), to(#bcbec2));
 	background-image: -webkit-linear-gradient(#eaeaeb 7.6%, #dadbde 50%, #d0d1d4 50%, #bcbec2);
 	background-image: -moz-linear-gradient(#eaeaeb 7.6%, #dadbde 50%, #d0d1d4 50%, #bcbec2);
-	background-image: -o-linear-gradient(#eaeaeb 7.6%, #dadbde 50%, #d0d1d4 50%, #bcbec2)
+	background-image: -o-linear-gradient(#eaeaeb 7.6%, #dadbde 50%, #d0d1d4 50%, #bcbec2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaeaeb', endColorstr='#bcbec2');
 }
 
 
@@ -757,14 +773,9 @@ table.ui-datepicker-calendar td.ui-datepicker-current-day {
   border-right: 0; 
 }
 
-table.ui-datepicker-calendar td.ui-datepicker-current-day a {
-  color: white;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); 
-}
+table.ui-datepicker-calendar td.ui-datepicker-current-day a {color: white; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);  }
 
-.ui-datepicker-calendar th, .ui-datepicker-calendar td {
-  text-align: center;
-}
+.ui-datepicker-calendar th, .ui-datepicker-calendar td {text-align: center;}
 .ui-datepicker-calendar th{padding: 6px 0}
 .ui-datepicker td span, .ui-datepicker td a { display: block; padding: 10px; border: 0; text-align: center; text-decoration: none; }
 .ui-datepicker td a.ui-state-default{border: 0; background: none}
@@ -841,4 +852,11 @@ input[type=password].text:focus {
 	-webkit-box-shadow: inset 0 1px 2px #ddd, 0px 0 5px #1a6dde;
 	-moz-box-shadow: 0 0 5px #1a6dde;
 	box-shadow: inset 0 1px 2px #ddd, 0px 0 5px #1a6dde;
+}
+
+
+/* Hack for IE 8 */
+@media \0screen {
+	.ui-slider .ui-slider-range, .ui-progressbar-value {top: 0}
+
 }
