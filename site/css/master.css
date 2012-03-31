@@ -2,7 +2,13 @@ html{ -webkit-font-smoothing:antialiased; }
 body{font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; background: #919191; color: #666; margin: 0; }
 p{line-height: 22px}
 a{color: #333; font-weight: bold; text-decoration: underline;}
-a:hover{text-decoration: underline;}
+a:hover{
+	text-decoration: underline;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear; 
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+}
 .container{width: 820px; margin: auto; box-shadow: 0 2px 2px black}
 .content{background: white; display: block; overflow: hidden; padding-bottom: 2%; }
 .color-line{
