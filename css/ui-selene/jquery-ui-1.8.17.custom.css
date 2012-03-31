@@ -459,8 +459,7 @@
 	  background-image: -o-linear-gradient(#fcfcfd 7.6%, #e5e7ee);
 	  font-weight: bold;
 	  text-shadow: 0 1px 0 white;
-	  padding: 6px 10px;
-		line-height: 24px;
+	  padding: 10px 10px;
 		cursor: pointer;
 		text-decoration: none;
 } /* the overflow property removes extra width in IE */
@@ -541,7 +540,7 @@ button.ui-button-icons-only { width: 3.7em; }
 
 /*button text element */
 .ui-button .ui-button-text { display: block; line-height: 1.4;  }
-.ui-button-text-only .ui-button-text { padding: .4em 1em; }
+/*.ui-button-text-only .ui-button-text { padding: .4em 1em; }*/
 .ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text { padding: .4em; text-indent: -9999999px; }
 .ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 1em .4em 2.1em; }
 .ui-button-text-icon-secondary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 2.1em .4em 1em; }
@@ -648,8 +647,8 @@ right: 0;
 		box-shadow: 0 1px 4px white inset;
 		background-image: -webkit-gradient(linear, 0 0, 0 48, color-stop(0.104, #2e2e2e), to(#000));
 		background-image: -webkit-linear-gradient(360deg, #6FD0D4, #DBEFBB);
-		background-image: -moz-linear-gradient(360deg, #2e2e2e 10.4%, #000);
-		background-image: -o-linear-gradient(360deg, #ef242e 10.4%, #000);
+		background-image: -moz-linear-gradient(360deg, #6FD0D4, #DBEFBB);
+		background-image: -o-linear-gradient(360deg, #6FD0D4, #DBEFBB);
 }
 
 .ui-slider.red .ui-slider-range{background: #ddb5ae;}

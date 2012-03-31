@@ -1,7 +1,7 @@
 html{ -webkit-font-smoothing:antialiased; }
 body{font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; background: #919191;  margin: 0; }
 p{line-height: 22px}
-.container{width: 800px; margin: auto; box-shadow: 0 2px 2px black}
+.container{width: 860px; margin: auto; box-shadow: 0 2px 2px black}
 .content{background: white; display: block; overflow: hidden; padding-bottom: 2%; }
 .color-line{
 	width: 100%;
