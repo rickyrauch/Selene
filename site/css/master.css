@@ -1,0 +1,120 @@
+html{ -webkit-font-smoothing:antialiased; }
+body{font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif; background: #919191; color: #666; margin: 0; }
+p{line-height: 22px}
+a{color: #333; font-weight: bold; text-decoration: underline;}
+a:hover{text-decoration: underline;}
+.container{width: 820px; margin: auto; box-shadow: 0 2px 2px black}
+.content{background: white; display: block; overflow: hidden; padding-bottom: 2%; }
+.color-line{
+	width: 100%;
+	background: #26E6A0;
+	background-image: -webkit-gradient(linear, 0 0, 458 0, from(#4d6fbc), color-stop(0.004, #4d6fbc), color-stop(0.004, #4f6ebc), color-stop(0.01, #4f6eba), color-stop(0.01, #516dba), color-stop(0.019, #536bb5), color-stop(0.028, #5769b4), color-stop(0.03, #576ab2), color-stop(0.045, #5c64ae), color-stop(0.045, #5f63ac), color-stop(0.056, #6261a7), color-stop(0.056, #6560a5), color-stop(0.063, #665ea4), color-stop(0.063, #685da2), color-stop(0.067, #695c9f), color-stop(0.074, #70599e), color-stop(0.078, #70589b), color-stop(0.085, #735696), color-stop(0.087, #765496), color-stop(0.111, #864888), color-stop(0.12, #8a4682), color-stop(0.133, #944079), color-stop(0.137, #964077), color-stop(0.146, #9d3a70), color-stop(0.148, #9e3a70), color-stop(0.159, #a63767), color-stop(0.165, #aa3565), color-stop(0.168, #ad3362), color-stop(0.172, #af3361), color-stop(0.183, #b62f59), color-stop(0.185, #b82d56), color-stop(0.218, #cb2843), color-stop(0.246, #db2536), color-stop(0.406, #f03026), color-stop(0.46, #f33824), color-stop(0.462, #f13924), color-stop(0.515, #f24124), color-stop(0.604, #f35322), color-stop(0.604, #f1541f), color-stop(0.615, #f25520), color-stop(0.615, #f2571e), color-stop(0.622, #f2571e), color-stop(0.622, #f1591f), color-stop(0.641, #f25b20), color-stop(0.641, #f15c1d), color-stop(0.655, #f35e1f), color-stop(0.655, #f15f1c), color-stop(0.7, #f36a18), color-stop(0.703, #f26c19), color-stop(0.762, #f27714), color-stop(0.762, #f27910), color-stop(0.772, #f37a12), color-stop(0.772, #f27b14), color-stop(0.79, #f27d10), color-stop(0.79, #f2800d), color-stop(0.803, #f3810f), color-stop(0.803, #f2830b), color-stop(0.814, #f3840d), color-stop(0.814, #f28506), color-stop(0.855, #f48b05), color-stop(0.855, #f28c04), color-stop(0.888, #f39200), color-stop(0.914, #f49700), color-stop(0.914, #f29800), color-stop(0.93, #f39900), color-stop(0.93, #f39b00), color-stop(0.951, #f39f00), color-stop(0.995, #f4a300), color-stop(0.995, #f2a400), to(#f2a400));
+	background-image: -webkit-linear-gradient(360deg, #4d6fbc, #4d6fbc 0.4%, #4f6ebc 0.4%, #4f6eba 1%, #516dba 1%, #536bb5 1.9%, #5769b4 2.8%, #576ab2 3%, #5c64ae 4.5%, #5f63ac 4.5%, #6261a7 5.6%, #6560a5 5.6%, #665ea4 6.3%, #685da2 6.3%, #695c9f 6.7%, #70599e 7.4%, #70589b 7.8%, #735696 8.5%, #765496 8.7%, #864888 11.1%, #8a4682 12%, #944079 13.3%, #964077 13.7%, #9d3a70 14.6%, #9e3a70 14.8%, #a63767 15.9%, #aa3565 16.5%, #ad3362 16.8%, #af3361 17.2%, #b62f59 18.3%, #b82d56 18.5%, #cb2843 21.8%, #db2536 24.6%, #f03026 40.6%, #f33824 46%, #f13924 46.2%, #f24124 51.5%, #f35322 60.4%, #f1541f 60.4%, #f25520 61.5%, #f2571e 61.5%, #f2571e 62.2%, #f1591f 62.2%, #f25b20 64.1%, #f15c1d 64.1%, #f35e1f 65.5%, #f15f1c 65.5%, #f36a18 70%, #f26c19 70.3%, #f27714 76.2%, #f27910 76.2%, #f37a12 77.2%, #f27b14 77.2%, #f27d10 79%, #f2800d 79%, #f3810f 80.3%, #f2830b 80.3%, #f3840d 81.4%, #f28506 81.4%, #f48b05 85.5%, #f28c04 85.5%, #f39200 88.8%, #f49700 91.4%, #f29800 91.4%, #f39900 93%, #f39b00 93%, #f39f00 95.1%, #f4a300 99.5%, #f2a400 99.5%, #f2a400);
+	background-image: -moz-linear-gradient(360deg, #4d6fbc, #4d6fbc 0.4%, #4f6ebc 0.4%, #4f6eba 1%, #516dba 1%, #536bb5 1.9%, #5769b4 2.8%, #576ab2 3%, #5c64ae 4.5%, #5f63ac 4.5%, #6261a7 5.6%, #6560a5 5.6%, #665ea4 6.3%, #685da2 6.3%, #695c9f 6.7%, #70599e 7.4%, #70589b 7.8%, #735696 8.5%, #765496 8.7%, #864888 11.1%, #8a4682 12%, #944079 13.3%, #964077 13.7%, #9d3a70 14.6%, #9e3a70 14.8%, #a63767 15.9%, #aa3565 16.5%, #ad3362 16.8%, #af3361 17.2%, #b62f59 18.3%, #b82d56 18.5%, #cb2843 21.8%, #db2536 24.6%, #f03026 40.6%, #f33824 46%, #f13924 46.2%, #f24124 51.5%, #f35322 60.4%, #f1541f 60.4%, #f25520 61.5%, #f2571e 61.5%, #f2571e 62.2%, #f1591f 62.2%, #f25b20 64.1%, #f15c1d 64.1%, #f35e1f 65.5%, #f15f1c 65.5%, #f36a18 70%, #f26c19 70.3%, #f27714 76.2%, #f27910 76.2%, #f37a12 77.2%, #f27b14 77.2%, #f27d10 79%, #f2800d 79%, #f3810f 80.3%, #f2830b 80.3%, #f3840d 81.4%, #f28506 81.4%, #f48b05 85.5%, #f28c04 85.5%, #f39200 88.8%, #f49700 91.4%, #f29800 91.4%, #f39900 93%, #f39b00 93%, #f39f00 95.1%, #f4a300 99.5%, #f2a400 99.5%, #f2a400);
+	background-image: -o-linear-gradient(360deg, #4d6fbc, #4d6fbc 0.4%, #4f6ebc 0.4%, #4f6eba 1%, #516dba 1%, #536bb5 1.9%, #5769b4 2.8%, #576ab2 3%, #5c64ae 4.5%, #5f63ac 4.5%, #6261a7 5.6%, #6560a5 5.6%, #665ea4 6.3%, #685da2 6.3%, #695c9f 6.7%, #70599e 7.4%, #70589b 7.8%, #735696 8.5%, #765496 8.7%, #864888 11.1%, #8a4682 12%, #944079 13.3%, #964077 13.7%, #9d3a70 14.6%, #9e3a70 14.8%, #a63767 15.9%, #aa3565 16.5%, #ad3362 16.8%, #af3361 17.2%, #b62f59 18.3%, #b82d56 18.5%, #cb2843 21.8%, #db2536 24.6%, #f03026 40.6%, #f33824 46%, #f13924 46.2%, #f24124 51.5%, #f35322 60.4%, #f1541f 60.4%, #f25520 61.5%, #f2571e 61.5%, #f2571e 62.2%, #f1591f 62.2%, #f25b20 64.1%, #f15c1d 64.1%, #f35e1f 65.5%, #f15f1c 65.5%, #f36a18 70%, #f26c19 70.3%, #f27714 76.2%, #f27910 76.2%, #f37a12 77.2%, #f27b14 77.2%, #f27d10 79%, #f2800d 79%, #f3810f 80.3%, #f2830b 80.3%, #f3840d 81.4%, #f28506 81.4%, #f48b05 85.5%, #f28c04 85.5%, #f39200 88.8%, #f49700 91.4%, #f29800 91.4%, #f39900 93%, #f39b00 93%, #f39f00 95.1%, #f4a300 99.5%, #f2a400 99.5%, #f2a400);
+	
+	background-image: -webkit-linear-gradient(360deg, #FA4D3D, #f96c42);
+	background-image: -moz-linear-gradient(360deg, #FA4D3D, #f96c42);
+	background-image: -o-linear-gradient(360deg, #FA4D3D, #f96c42);
+
+	height: 2px;
+	display: block;
+	top: 0;
+	z-index: 10000;
+}
+header{
+	background: black; display: block; 
+	background-image: -webkit-gradient(linear, 0 0, 0 48, color-stop(0.104, #2e2e2e), to(#000));
+	background-image: -webkit-linear-gradient(#2e2e2e 10.4%, #000);
+	background-image: -moz-linear-gradient(#2e2e2e 10.4%, #000);
+	background-image: -o-linear-gradient(#2e2e2e 10.4%, #000);
+	box-shadow: 0 2px 2px rgba(0,0,0,.4);
+	z-index: 1000;
+	overflow: hidden;
+}
+header h1{margin: 0; padding: 0; margin-left: 2%}
+header h1 a{
+	background: url('http://gravityonmars.com/wp-content/themes/gom3/images/images.png') no-repeat 0 0;
+	width: 126px;
+	height: 18px;
+	float: left;
+	display: inline-block;
+	text-indent: -1000em;
+	margin: 20px auto 20px auto;
+	padding: 0;
+}
+header .follow-us{float: right; color: white; font-weight: bold; font-size: 10px; text-transform: uppercase; background: #000; color: #fff; border-radius: 5px; padding: 0 10px 0 6px; margin-top: 12px; 
+	display: inline-block; margin-right: 10px; text-decoration: none;
+	background-image: -webkit-gradient(linear, 0 0, 0 48, color-stop(0.104, #666), to(#444));
+	background-image: -webkit-linear-gradient(#666 10.4%, #444);
+	background-image: -moz-linear-gradient(#666 10.4%, #444);
+	background-image: -o-linear-gradient(#666 10.4%, #444);	
+	border: 1px solid black;
+	box-shadow: 0 2px 2px black, 0 1px 0 rgba(255,255,255,.2) inset;
+	text-shadow: 0 -1px 1px black;
+	line-height: 30px;
+}
+
+header .follow-us:hover{
+	background-image: -webkit-gradient(linear, 0 0, 0 48, color-stop(0.104, #666), to(#333));
+	background-image: -webkit-linear-gradient(#666 10.4%, #333);
+	background-image: -moz-linear-gradient(#666 10.4%, #333);
+	background-image: -o-linear-gradient(#666 10.4%, #333);
+}
+
+header .follow-us:active{
+	background-image: -webkit-gradient(linear, 0 0, 0 48, color-stop(0.104, #333), to(#666));
+	background-image: -webkit-linear-gradient(#333 10.4%, #666);
+	background-image: -moz-linear-gradient(#333 10.4%, #666);
+	background-image: -o-linear-gradient(#333 10.4%, #666);
+}
+
+header .follow-us i{
+	display: inline-block;
+	background: url('../images/twitter.png') no-repeat 0 0;
+	width: 18px;
+	height: 18px;
+	margin-top: 6px;
+	float: left;
+	margin-right: 8px;
+	padding-right: 6px;
+	border-right: 1px solid #444;
+	box-shadow:1px 0  0 rgba(255,255,255,.1);
+}
+
+header .follow-us strong{
+	color: #38caff;
+}
+
+header .follow-us.github i{
+	background: url('../images/github.png') no-repeat 0 0;
+		width: 11px;
+		height: 18px;
+		padding-right: 4px;
+		margin-right: 6px;
+}
+
+header .follow-us.github strong{
+	color: #fec19b;
+}
+
+.demoHeaders { 
+	border-bottom: 1px solid #f1f1f1;
+	margin: 40px 0 20px 0;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.space{padding: 1% 2% 0 2%;  }
+input.text{min-width: 300px}
+#dialog_link {padding-left: 1.8em; text-decoration: none;position: relative;}
+#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .3em;top: 50%;margin-top: -8px;}
+ul#icons {margin: 0; padding: 0;}
+ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+ul#icons span.ui-icon {float: left; margin: 0 4px;}
+.left, .right{width: 46%;  float: left; margin: 0 2% 2% 2%}
+
+.slider{margin-bottom: 20px}
+
+.component{float: left; width: 46%; margin: 0 2%}
+.clear{display: block; clear: both}
