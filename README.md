@@ -1,6 +1,6 @@
-### [Follow us on twitter][]
+### [Follow me on twitter][]
 
-  [Follow us on twitter]: http://twitter.com/gravityonmars
+  [Follow me on twitter]: http://twitter.com/gravityonmars
   
 ![image][]
 
