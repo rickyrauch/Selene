@@ -4,7 +4,7 @@
   
 ![image][]
 
-  [image]: http://rickyrauch.github.com/Selene/site/images/screenshot.png
+  [image]: https://raw.githubusercontent.com/rickyrauch/Selene/master/site/images/screenshot.png
   
   
 ## License 
